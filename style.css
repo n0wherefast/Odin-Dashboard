@@ -1,0 +1,195 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serifù;
+  }
+  
+  .container {
+      display: grid;
+      grid-template-columns: 1fr 5fr;
+      grid-template-rows: auto ;
+
+  }
+  /* CLASS SIDEBAR ELEMENTS*/
+  
+  .sidebar {
+    height: 100%;
+    background-color: #64748b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:start;
+    color: white;
+    font-weight: bolder;
+    font-size:x-large;     
+  }
+
+  .boxDash{
+      margin-top: 50px;
+  display: flex;
+  align-items: center;
+  }
+
+
+  .dashImg{
+      background-image: url(icon/chart-tree.png);
+      background-repeat: no-repeat;
+      height: 50px;
+      width: 50px;
+  }
+  li{
+      list-style: none;
+      cursor: pointer;
+  }
+  .sidebar ul{
+       padding-right: 5vw;
+         
+  }
+
+  .sidebar ul li{
+      padding-top: 20px;
+
+  }
+
+  .secList ul{
+      padding-right: 8vw;
+  }
+   /* CLASS SIDEBAR ELEMENTS*/
+
+
+
+
+
+   /* CLASS BOX ELEMENTS*/
+
+
+  .box {
+    background-color: #00DDFF;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:180px auto;    
+  }
+
+
+  .imgHolder{
+      background-image:url(icon/png-clipart-steam-user-profile-information-vlog-video-others-logo-cartoon.png);
+      background-position: center;
+      background-size: 150px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      margin:25px  30px;
+      float: left;
+  }
+  .imgAvatar{
+    background-image:url(icon/png-clipart-steam-user-profile-information-vlog-video-others-logo-cartoon.png);
+    background-position: center;
+    background-size: 80px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin:30px -50px  ;
+    float: right;
+
+  }
+  .name{
+    border-radius: 50px ;
+    margin:30px  -160px;
+    float: right;
+
+
+  }
+
+  .nav{
+        background-color: #06b6d4;
+        overflow: hidden;
+    }
+.nav a{
+  float:right;
+  margin: 120px 10px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #64748b;
+  border-radius: 30px;
+}
+.nav input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 17px;
+    border-radius:15px;
+    width: 30vw;
+    height: 30px;
+ }
+  
+  .article {
+    background-color: #3077d3; 
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+  }
+
+
+     /* CLASS BOX ELEMENTS*/
+
+
+ .icon{
+     display: flex;
+     justify-content:end;
+     margin-right: 20px;
+     
+  }
+  img{
+      margin-left: 8px;
+      cursor: pointer;
+  }
+
+
+    
+
+
+  .projects{
+      background-color:rgb(199, 217, 233);
+      display:flex;
+      flex-wrap:wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 5%;
+      padding:10px;
+  }
+  .cards{
+      background-color:azure; 
+      border-left: 8px solid rgb(250, 192, 0);
+      padding: 5px;
+      width: 300px;
+      height: 24vh;
+      border-radius: 10%; 
+      margin: 10px;
+
+  }
+  .sideCard{
+    background-color:rgb(199, 217, 233);
+    border-left: 1px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .sideCards{
+      background-color:azure;    
+      height:450px;
+      width: 300px;
+      margin: 5px;
+      padding: 10px;
+      border-radius: 10%;
+      border-left: 9px solid rgb(255, 187, 0);
+      
+  }
