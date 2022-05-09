@@ -69,7 +69,8 @@ body, html {
     background-color: #00DDFF;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows:180px auto;    
+    grid-template-rows:180px auto;
+     
   }
 
 
@@ -150,13 +151,8 @@ body, html {
       margin-left: 8px;
       cursor: pointer;
       height: 20px;
-    width: 20px;
+      width: 20px;
   }
-
-
-    
-
-
   .projects{
       background-color:rgb(199, 217, 233);
       display:flex;
@@ -174,6 +170,8 @@ body, html {
       height: 24vh;
       border-radius: 10%; 
       margin: 10px;
+      display: flex;
+      flex-direction: column;
 
   }
   .sideCard{
