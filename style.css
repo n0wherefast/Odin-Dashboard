@@ -169,8 +169,7 @@ body, html {
       width: 300px;
       border-radius: 10%; 
       margin: 10px;
-      display: flex;
-      flex-direction: column;
+     
 
   }
   .sideCard{
